@@ -2,7 +2,7 @@
 
 # Building Cloud Business Applications
 
-📌 **Descripción y conexto de la empresa**
+📌 **Descripción y contexto de la empresa**
 
   <ul>
     <li>📦 Forma Retail Proyectos es una empresa especializada en la implementación de mobiliario comercial para tiendas del canal retail.</li>
@@ -50,4 +50,5 @@
 
 </div>
 
+  <h2>Diagrama de la arquitectura de datos</h2>
 
