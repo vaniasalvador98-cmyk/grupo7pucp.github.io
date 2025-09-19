@@ -70,7 +70,7 @@
   A continuación, se presentan las distintas pantallas que conforman la aplicación, junto con su propósito y principales funcionalidades:
 </p>
 <h4 id="">Pantalla 1: Pantalla de Bienvenida/Inicio</h4>
-<img width="672" height="375" alt="image" src="https://github.com/user-attachments/assets/c03d4d4d-959f-4386-97cb-f180eae84d21" />
+<img width="1303" height="728" alt="image" src="https://github.com/user-attachments/assets/a4e86d29-b6cc-461a-aaf8-c553049f48c6" />
   <p>
     Esta pantalla actúa como punto de entrada principal a la aplicación, permitiendo al usuario seleccionar la acción que desea realizar dentro del sistema. La función transaccional principal disponible desde aquí es <strong>Gestionar Presupuesto</strong>.
   </p>
