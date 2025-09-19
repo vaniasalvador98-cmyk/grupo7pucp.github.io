@@ -22,7 +22,7 @@
     <li>Se emplearán tecnologías en la nube como Azure SQL y Microsoft Fabric, brindando a FORMA RETAIL S.A. una solución robusta, integrada y lista para el análisis avanzado y la toma de decisiones estratégicas en tiempo real.</li>
   </ul>
 
-🎯 **Objetivos Principales**
+📌 **Objetivos Principales**
   <ul>
     <li>Centralizar datos de los proyectos de implementación (costos, facturación, tiempos).</li>
     <li>Automatizar flujos ETL con Microsoft Fabric para mejorar la eficiencia operativa.</li>
@@ -51,4 +51,69 @@
 </div>
 
   <h2>Diagrama de la arquitectura de datos</h2>
+
+  <h2>C1:Capa de datos</h2>
+  <h2>C2: Capa de aplicación</h2>
+  
+  📌 **Preámbulo** 
+
+  <p>
+    Como paso inicial del desarrollo de la aplicación para <strong>FORMA RETAIL S.A.</strong>, elaboramos un diagrama de flujo de funcionamiento con el objetivo de construir un primer bosquejo de cómo operaría el sistema. Este enfoque nos permitió tener una visión global del proceso, facilitando la planificación y creación de las pantallas de la aplicación.
+  </p>
+
+  <p>
+    Además, este diagrama resultó clave para comprender correctamente el negocio y asegurar que el diseño de la aplicación refleje de forma adecuada sus procesos y necesidades reales.
+  </p>
+</div>
+<h4 id="">Diagrama de Flujo del funcionamiento del Negocio</h4>
+<p>
+  A continuación, se presentan las distintas pantallas que conforman la aplicación, junto con su propósito y principales funcionalidades:
+</p>
+<h4 id="">Pantalla 1: Pantalla de Bienvenida/Inicio</h4>
+<img width="1168" height="656" alt="image" src="https://github.com/user-attachments/assets/df8de31b-b8c1-4afa-9bf1-8423b23c7e8b" />
+  <p>
+    Esta pantalla actúa como punto de entrada principal a la aplicación, permitiendo al usuario seleccionar la acción que desea realizar dentro del sistema. La función transaccional principal disponible desde aquí es <strong>Gestionar Presupuesto</strong>.
+  </p>
+
+  <h4>🎯 Propósito</h4>
+  <p>
+    Centralizar el acceso a las diferentes funciones de la aplicación y ofrecer una navegación clara, visual e intuitiva para el usuario.
+  </p>
+
+  <h4>⚙️ Funcionalidades</h4>
+  <ul>
+    <li>Seleccionar la acción a realizar desde el menú principal.</li>
+    <li>Acceso directo a <strong>Gestionar Presupuesto</strong> para visualizar presupuestos existentes o crear nuevos.</li>
+    <li>Acceso a la administración de los distintos maestros del sistema:
+      <ul>
+        <li>Gestionar Tiendas</li>
+        <li>Gestionar Referecias</li>
+        <li>Gestionar Comerciales</li>
+        <li>Gestionar Facturas</li>
+        <li>Gestionar Clientes</li>
+        <li>Gestionar Proyectistas</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<h4 id="">Pantalla 2: Pantalla de Buscar Presupuesto</h4>
+<img width="1167" height="653" alt="image" src="https://github.com/user-attachments/assets/63a84f64-3ba7-4fc8-8a6a-1d178ec724bc" />
+  <h4>🎯 Propósito</h4>
+  <p>
+    Facilitar la búsqueda y selección de presupuestos existentes, permitiendo filtrar por cliente y tienda para acceder de forma ágil al presupuesto que se desea gestionar.
+  </p>
+
+  <h4>⚙️ Funcionalidades</h4>
+  <ul>
+    <li>Buscar presupuestos existentes filtrando primero por <strong>Cliente</strong> y luego por <strong>Tienda</strong> asociada.</li>
+    <li>Acceder directamente a la <strong>galería de tiendas</strong> y seleccionar una tienda para visualizar sus presupuestos creados en el panel derecho.</li>
+    <li>Utilizar el botón <strong>“Ver todos los presupuestos”</strong> para acceder directamente a la pantalla de gestión de presupuestos de la tienda seleccionada.</li>
+    <li>Si no existe una tienda registrada, usar el botón <strong>“Gestionar Tienda”</strong> para crear una nueva tienda y continuar con el proceso de creación de un nuevo presupuesto.</li>
+  </ul>
+
+</div>
+  <h2>C3: Capa de extracción, transformación y carga</h2>
+  <h2>C4: Capa de almacén de datos</h2>
+  <h2>C5: Capa de presentación</h2>
+
 
