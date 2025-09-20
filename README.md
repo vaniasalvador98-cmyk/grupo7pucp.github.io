@@ -116,7 +116,7 @@
 <img width="1314" height="732" alt="image" src="https://github.com/user-attachments/assets/e8c1a910-58a0-42a4-96b1-bbc6956753fa" />
   <h4>🎯 Propósito</h4>
   <p>
-    Administrar los presupuestos asociados a una tienda específica, permitiendo tanto la creación de nuevos presupuestos como la visualización y consulta de los existentes.
+    Administrar los presupuestos asociados a una tienda específica, permitiendo tanto la creación de nuevos presupuestos como la visualización, consulta y acciones adicionales sobre los ya existentes.
   </p>
 
   <h4>⚙️ Funcionalidades</h4>
@@ -125,9 +125,13 @@
     <li>Seleccionar un presupuesto en la galería para ver sus principales campos y datos registrados.</li>
     <li>Crear un nuevo presupuesto mediante el botón <strong>“Crear nuevo presupuesto”</strong>, lo que habilita en el panel derecho los campos a completar para su registro.</li>
     <li>Acceder al detalle completo de un presupuesto existente con la opción <strong>“Ver detalle presupuesto”</strong>, que abre una nueva ventana con la información ampliada.</li>
+    <li>Enviar por correo la información de un presupuesto seleccionado mediante el botón <strong>“PA: Enviar_ppto”</strong>, el cual notifica automáticamente a los usuarios programados.</li>
+    <li>Gestionar las facturas relacionadas con un presupuesto existente o recién creado a través del botón <strong>“Gestionar Facturas”</strong>, que permite crear o visualizar facturas vinculadas.</li>
   </ul>
 
 </div>
+<h4 id="">Pantalla 4: Pantalla Gestionar Presupuesto Detalle</h4>
+<img width="1081" height="605" alt="image" src="https://github.com/user-attachments/assets/4289e134-5cd2-43b8-9eca-670d5a222fcc" />
 
   <h2>C3: Capa de extracción, transformación y carga</h2>
   <h2>C4: Capa de almacén de datos</h2>
