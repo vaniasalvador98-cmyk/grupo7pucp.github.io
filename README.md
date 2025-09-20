@@ -113,7 +113,21 @@
 
 </div>
 <h4 id="">Pantalla 3: Pantalla Gestionar Presupuestos</h4>
-<img width="1310" height="735" alt="image" src="https://github.com/user-attachments/assets/574ca4d8-9679-401e-aaef-b7815bd6cdb7" />
+<img width="1314" height="732" alt="image" src="https://github.com/user-attachments/assets/e8c1a910-58a0-42a4-96b1-bbc6956753fa" />
+  <h4>🎯 Propósito</h4>
+  <p>
+    Administrar los presupuestos asociados a una tienda específica, permitiendo tanto la creación de nuevos presupuestos como la visualización y consulta de los existentes.
+  </p>
+
+  <h4>⚙️ Funcionalidades</h4>
+  <ul>
+    <li>Visualizar en la <strong>galería lateral izquierda</strong> todos los presupuestos relacionados con la tienda seleccionada previamente.</li>
+    <li>Seleccionar un presupuesto en la galería para ver sus principales campos y datos registrados.</li>
+    <li>Crear un nuevo presupuesto mediante el botón <strong>“Crear nuevo presupuesto”</strong>, lo que habilita en el panel derecho los campos a completar para su registro.</li>
+    <li>Acceder al detalle completo de un presupuesto existente con la opción <strong>“Ver detalle presupuesto”</strong>, que abre una nueva ventana con la información ampliada.</li>
+  </ul>
+
+</div>
 
   <h2>C3: Capa de extracción, transformación y carga</h2>
   <h2>C4: Capa de almacén de datos</h2>
