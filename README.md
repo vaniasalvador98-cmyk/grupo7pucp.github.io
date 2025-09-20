@@ -131,7 +131,8 @@
 
 </div>
 <h4 id="">Pantalla 4: Pantalla Gestionar Presupuesto Detalle</h4>
-<img width="1081" height="605" alt="image" src="https://github.com/user-attachments/assets/4289e134-5cd2-43b8-9eca-670d5a222fcc" />
+<img width="1087" height="606" alt="image" src="https://github.com/user-attachments/assets/4f23c548-c687-4139-9bf0-1ca16cb9823e" />
+
 
   <h2>C3: Capa de extracción, transformación y carga</h2>
   <h2>C4: Capa de almacén de datos</h2>
